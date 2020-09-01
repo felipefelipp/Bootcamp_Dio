@@ -7,8 +7,10 @@ public class HelloWorld {
 		System.out.println("Hello Linux!");
 		if(i > -1) {
 			System.out.println("teste");
-		} else {
+		} else if(i < -2) {
 			System.out.println("fail");
+		} else {
+			System.out.println("teste2");
 		}
 	}
 
